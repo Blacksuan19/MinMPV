@@ -8,6 +8,9 @@
 -- fork by xiaoleichen
 -- https://github.com/xiaoleichen/mpv-settings-mac
 
+-- fork by blacksuan19 (added support for thumbfast)
+-- https://github.com/blacksuan19/mpv-conf
+
 local assdraw = require 'mp.assdraw'
 local msg = require 'mp.msg'
 local opt = require 'mp.options'
