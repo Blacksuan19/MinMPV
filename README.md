@@ -1,6 +1,8 @@
 # MinMPV
 
-Minimal MPV config with sane plugins and shortcuts.
+![Ui](./showcase/ui.png)
+
+Minimal MPV config with sane Scripts and shortcuts.
 
 ## Features
 
@@ -14,19 +16,33 @@ Minimal MPV config with sane plugins and shortcuts.
 - Gallery view to see all media files in current directory.
 - Mouse gestures for volume and seeking.
 
-## Plugins
+## Scripts
 
-| Plugin                                                                                   | Shortcut                        | Function                                                           |
-| ---------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------ |
-| [thumbfast](https://github.com/po5/thumbfast)                                            | None                            | generate thumbnails when hovering over the seekbar.                |
-| [autoload](https://github.com/noelsimbolon/mpv-config/blob/windows/scripts/autoload.lua) | None                            | automatically load playlist entries before and after current file. |
-| [osc-modern](https://github.com/Blacksuan19/mpv-conf/blob/master/scripts/osc_modern.lua) | None                            | Minimal OSC theme.                                                 |
-| [dynamic-crop](https://github.com/Ashyni/mpv-scripts#dynamic-croplua)                    | <kbd>Shift</kbd> + <kbd>C</kbd> | dynamically remove black borders around video.                     |
-| [mpv-gallery-view](https://github.com/occivink/mpv-gallery-view)                         | <kbd>g</kbd>                    |
+| Script                                                                                   | Function                                                           | Shortcut                        |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------- |
+| [thumbfast](https://github.com/po5/thumbfast)                                            | generate thumbnails when hovering over the seekbar.                |
+| [autoload](https://github.com/noelsimbolon/mpv-config/blob/windows/scripts/autoload.lua) | automatically load playlist entries before and after current file. |
+| [osc-modern](https://github.com/Blacksuan19/mpv-conf/blob/master/scripts/osc_modern.lua) | Minimal OSC theme.                                                 |
+| [dynamic-crop](https://github.com/Ashyni/mpv-scripts#dynamic-croplua)                    | dynamically remove black borders around video.                     | <kbd>Shift</kbd> + <kbd>C</kbd> |
+| [mpv-gallery-view](https://github.com/occivink/mpv-gallery-view)                         | gallery view of files in current folder with thumbnails            | <kbd>g</kbd>                    |
 
-# Mouse gestures
+## Mouse gestures
 
-- swipe right to skeep forward
+- swipe right to seek forward
 - swipe left to seek backward
 - swipe up to down to lower volume
 - swipe down to up to increase volume
+
+## Showcase
+
+### Video Gallery
+
+![gallery](./showcase/gallery.png)
+
+### OSD
+
+![osd](./showcase/osd.png)
+
+### Thumbnails
+
+![thumbs](./showcase/thumbs.png)
