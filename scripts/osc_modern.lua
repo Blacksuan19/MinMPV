@@ -9,7 +9,7 @@
 -- https://github.com/xiaoleichen/mpv-settings-mac
 
 -- fork by blacksuan19 (added support for thumbfast)
--- https://github.com/blacksuan19/mpv-conf
+-- https://github.com/blacksuan19/MinMPV
 
 local assdraw = require 'mp.assdraw'
 local msg = require 'mp.msg'
