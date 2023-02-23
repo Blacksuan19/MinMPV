@@ -16,6 +16,22 @@ Minimal MPV config with sane Scripts and shortcuts.
 - Gallery view to see all media files in current directory.
 - Mouse gestures for volume and seeking.
 
+## Installation
+
+- backup current mpv directory under `~/.config/mpv`
+
+```bash
+
+mv ~/.config/mpv ~/.config/mpv.bak
+
+```
+
+- clone repository into `~/.config/mpv`.
+
+```bash
+git clone https://github.com/Blacksuan19/MinMPV ~/.config/mpv
+```
+
 ## Scripts
 
 | Script                                                                                   | Function                                                           | Shortcut                        |
